@@ -372,13 +372,6 @@ class _PipFlutterPlayerCupertinoControlsState
               padding: EdgeInsets.symmetric(
                 horizontal: buttonPadding,
               ),
-              child: Icon(
-                (_latestValue != null && _latestValue!.volume > 0)
-                    ? _controlsConfiguration.muteIcon
-                    : _controlsConfiguration.unMuteIcon,
-                color: iconColor,
-                size: iconSize,
-              ),
             ),
           ),
         ),

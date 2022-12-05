@@ -24,12 +24,6 @@ class PipFlutterPlayerControlsConfiguration {
   ///Icon of pause
   final IconData pauseIcon;
 
-  ///Icon of mute
-  final IconData muteIcon;
-
-  ///Icon of unmute
-  final IconData unMuteIcon;
-
   ///Icon of fullscreen mode enable
   final IconData fullscreenEnableIcon;
 
@@ -170,8 +164,6 @@ class PipFlutterPlayerControlsConfiguration {
     this.iconsColor = Colors.white,
     this.playIcon = Icons.play_arrow_outlined,
     this.pauseIcon = Icons.pause_outlined,
-    this.muteIcon = Icons.volume_up_outlined,
-    this.unMuteIcon = Icons.volume_off_outlined,
     this.fullscreenEnableIcon = Icons.fullscreen_outlined,
     this.fullscreenDisableIcon = Icons.fullscreen_exit_outlined,
     this.skipBackIcon = Icons.replay_10_outlined,
